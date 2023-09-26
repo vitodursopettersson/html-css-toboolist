@@ -2,7 +2,7 @@
 --------------
 Reset default
 --------------
- */
+*/
 
 * {
     padding: 0;
@@ -14,7 +14,7 @@ Reset default
 --------------
 Header
 --------------
- */
+*/
 
  .brand {
     background-color: #ffffff;
@@ -34,3 +34,54 @@ Header
     font-size: 38px;
     font-weight: 800;
  }
+
+/* 
+--------------
+Design System
+--------------
+*/
+
+body {
+    background-color: #F6F8F9;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 4px;
+    background-color: #47ADF1;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #42A5E8;
+}
+
+button.alt {
+    background-color: white;
+    border: solid 1.2px;
+    border-color: #CFD3D7;
+    color: #CFD3D7;
+}
+
+button.alt:hover {
+    background-color: #f4f3f3;
+}
+
+/* 
+--------------
+Main section
+--------------
+*/
+
+.main-section {
+    background-color: #ffffff;
+    width: 900px;
+    margin: 40px auto 4px;
+    padding: 12px 60px;
+    border-radius: 4px;
+}
