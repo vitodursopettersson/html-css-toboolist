@@ -9,3 +9,28 @@ Reset default
     margin: 0;
     box-sizing: border-box;
 }
+
+/* 
+--------------
+Header
+--------------
+ */
+
+ .brand {
+    background-color: #ffffff;
+    padding: 10px;
+ }
+
+ .logo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+ }
+
+ .logotipo {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Roboto, sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+ }
