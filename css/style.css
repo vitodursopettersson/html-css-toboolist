@@ -12,6 +12,16 @@ Reset default
 
 /* 
 --------------
+Design System
+--------------
+*/
+
+body {
+    background-color: #F6F8F9;
+    font-family: Roboto, sans-serif;
+
+/* 
+--------------
 Header
 --------------
 */
@@ -30,23 +40,13 @@ Header
  .logotipo {
     display: inline-block;
     vertical-align: middle;
-    font-family: Roboto, sans-serif;
     font-size: 38px;
     font-weight: 800;
  }
-
-/* 
---------------
-Design System
---------------
-*/
-
-body {
-    background-color: #F6F8F9;
+;
 }
 
 button {
-    font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: 500;
     padding: 8px 14px;
@@ -74,14 +74,136 @@ button.alt:hover {
 
 /* 
 --------------
+Header
+--------------
+*/
+
+.brand {
+    background-color: #ffffff;
+    padding: 10px;
+ }
+
+.logo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+ }
+
+.logotipo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 38px;
+    font-weight: 800;
+ }
+
+/* 
+--------------
 Main section
 --------------
 */
 
+main {
+    padding: 40px;
+}
+
 .main-section {
     background-color: #ffffff;
     width: 900px;
-    margin: 40px auto 4px;
+    margin: 4px auto;
     padding: 12px 60px;
     border-radius: 4px;
+}
+
+/* 
+--------------
+To-do list
+--------------
+*/
+
+/* Titolo Accordion */
+
+.todo-list h2::before {
+    content: "\25BE";
+    margin-right: 10px;
+}
+
+.todo-list h2 {
+    font-size: 22px;
+    color: #454951;
+    margin-top: 28px;
+}
+
+/* Elemento lista */
+
+.todo-list ul {
+    list-style-position: inside;
+}
+
+.todo-list li {
+    margin: 10px 0px 20px;
+    list-style-type: none;
+}
+
+/* Icona elemento lista */
+
+.todo-list li::before {
+    content: "\-";
+    border: solid 2px;
+    border-color: grey;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.todo-list .true::before {
+    content: "\2713";
+    color: #6BC3AD;
+    border-color: #6BC3AD;
+}
+
+.todo-list .false::before {
+    content: "\2715";
+    color: #EB5046;
+    border-color: #EB5046;
+}
+
+/* Tag elemento lista */
+
+.todo-list span {
+    color: #ffffff;
+    font-size: 11px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    margin-left: 6px;
+}
+
+/* Stili classi tag */
+
+.editorial {
+    background-color: #42A5E8;
+}
+
+.q1-goals {
+    background-color: #9C71E4;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A0;
+}
+
+.sales {
+    background-color: #B0C926;
 }
