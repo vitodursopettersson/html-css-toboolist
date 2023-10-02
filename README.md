@@ -1,6 +1,6 @@
 # Toboolist
 
-Esercitazione 26 settembre 2022
+Esercitazione 26 settembre 2023
 
 
 
